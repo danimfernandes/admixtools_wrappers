@@ -1,5 +1,36 @@
 # admixtools_tools
 
+**F4SINGLETEST - Quickly run a single f4-statistic test from the terminal**
+
+1. Description
+
+Quickly runs qpDstat to calculate a single f4-statistic from the terminal.
+This wrapper script creates the parameter file using default options.
+
+2. Requirements
+
+Python modules:
+
+-os
+
+-sys
+
+3. Usage
+
+Input:
+
+f4singleTest.py fooDataset popW popX popY popZ
+
+Output:
+
+f4out_popW_popX_popY_popZ
+
+Example:
+
+\>\>\> f4singleTest.py myDataset1 Mbuti.DG Anatolia_N Iran_N Levant_N
+
+***
+
 **CONVERTINGIT - Wrapper to quickly convert a dataset with 'convertf'**
 
 1. Description
@@ -18,6 +49,7 @@ Python modules:
 3. Usage
 
 Input:
+
 convertingit.py fooDataset inputFormat outputFormat
 
 Output:
@@ -33,6 +65,7 @@ Example:
 \>\>\> convertingit.py myDataset1 PACKEDPED EIGENSTRAT
 
 ***
+
 **MERGINGIT - Wrapper to quickly merge two datasets with 'mergeit'**
 
 1. Description
@@ -51,6 +84,7 @@ Python modules:
 3. Usage
 
 Input:
+
 mergingit.py fooDataset barDataset mergedDataset
 
 Output:
@@ -64,7 +98,9 @@ mergedDataset.ind
 Example:
 
 \>\>\> mergingit.py myDataset1 myDataset2 myMergedDataset
+
 ***
+
 **REDUCINGIT - Wrapper to quickly reduce a dataset with 'convertf'**
 
 1. Description
@@ -83,6 +119,7 @@ Python modules:
 3. Usage
 
 Input:
+
 reducingit.py fooDataset poplistnameFile fooDatasetReduced
 
 Output:
