@@ -1,4 +1,4 @@
-# admixtools_tools
+# A set of wrappers for frequent ADMIXTOOLS operations
 
 **F4SINGLETEST - Quickly run a single f4-statistic test from the terminal**
 
