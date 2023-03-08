@@ -11,7 +11,7 @@ print("< CONVERTINGIT - Wrapper to quickly convert a dataset with 'convertf' >\n
 helpa = """
     # Description and Usage #
     > 1. Description
-    Quickly convert a dataset to a desired format accepter by 'convertf' from the 'admixtools' package.
+    Quickly convert a dataset to a desired format accepted by 'convertf' from the 'admixtools' package.
     This wrapper script creates the parameter file using default options and uses the 'outputformat' given as an argument.
 
     > 2. Requirements
