@@ -46,6 +46,12 @@ Python modules:
 
 -sys
 
+Other provided scripts with system wide accessibility:
+
+- famfile_correction.py
+
+- indfile_correction.py
+
 ### 3. Usage
 
 Input:
