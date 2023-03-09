@@ -46,7 +46,7 @@ Python modules:
 
 -sys
 
-Other provided scripts with system wide accessibility:
+Other provided scripts with system wide availability:
 
 - famfile_correction.py
 
